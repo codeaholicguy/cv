@@ -1,6 +1,13 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+const styles = {
+  header: {
+    paddingBottom: 10,
+    borderBottom: 'solid 1px'
+  }
+}
+
 const IndexPage = ({}, context) => {
   const {info, summary, awards, history, educations} = context.data
 
@@ -32,7 +39,7 @@ const IndexPage = ({}, context) => {
         </p>
       </div>
       <div>
-        <h2>Career summary</h2>
+        <h2 style={styles.header}>Career summary</h2>
         <ul>
           {summary.map((item, index) => {
             return <li key={`summary-${index}`}>{item}</li>
@@ -40,7 +47,7 @@ const IndexPage = ({}, context) => {
         </ul>
       </div>
       <div>
-        <h2>Awards</h2>
+        <h2 style={styles.header}>Awards</h2>
         <ul>
           {awards.map((item, index) => {
             return (
@@ -54,7 +61,7 @@ const IndexPage = ({}, context) => {
         </ul>
       </div>
       <div>
-        <h2>Work history</h2>
+        <h2 style={styles.header}>Work history</h2>
         <div>
           {history.map((item, index) => {
             return (
@@ -118,11 +125,11 @@ const IndexPage = ({}, context) => {
         </div>
       </div>
       <div>
-        <h2>Education</h2>
+        <h2 style={styles.header}>Education</h2>
         <div>
           {educations.map((education, index) => {
             return (
-              <div>
+              <div key={`education-${index}`}>
                 <h3>
                   <span>{education.major}</span>
                   <span>, </span>
