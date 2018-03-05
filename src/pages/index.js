@@ -81,7 +81,22 @@ const IndexPage = ({}, context) => {
                   {item.projects.map((project, index) => {
                     return (
                       <div key={`project-${index}`}>
-                        <p>{project.description}</p>
+                        <p>
+                          <span>
+                            <strong>{project.name}</strong>
+                          </span>
+                          {!!project.link && (
+                            <span>
+                              <span> (</span>
+                              <span>
+                                <a href={project.link}>{project.link}</a>
+                              </span>
+                              <span>)</span>
+                            </span>
+                          )}
+                          <span>: </span>
+                          <span>{project.description}</span>
+                        </p>
                         <ul>
                           {project.responsibilities.map(
                             (responsibility, index) => {
