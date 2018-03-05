@@ -6,6 +6,7 @@
   },
   "info": {
     "name": "Nguyen Nhat Hoang",
+    "location": "Ho Chi Minh, VN",
     "mobile": "+841698246714",
     "email": "hoangnn93@gmail.com",
     "linkedin": "https://vn.linkedin.com/in/nguyennhathoang",
@@ -104,7 +105,7 @@
       ]
     }
   ],
-  "education": [
+  "educations": [
     {
       "school": "FPT University",
       "major": "Software Engineering",

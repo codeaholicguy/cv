@@ -4,6 +4,12 @@ import Helmet from 'react-helmet'
 
 import data from '../data/cv.json'
 
+const styles = {
+  layout: {
+    padding: `10px 30px 10px 30px`
+  }
+}
+
 export default class Layout extends Component {
   static propTypes = {
     children: PropTypes.func
@@ -29,7 +35,7 @@ export default class Layout extends Component {
             {name: 'keywords', content: data.meta.keywords}
           ]}
         />
-        <div>{children()}</div>
+        <div style={styles.layout}>{children()}</div>
       </div>
     )
   }

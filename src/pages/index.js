@@ -2,13 +2,15 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const IndexPage = ({}, context) => {
-  const {info, summary, awards, history} = context.data
+  const {info, summary, awards, history, educations} = context.data
 
   return (
     <div>
       <div>
         <h1>{info.name}</h1>
         <p>
+          <span>{info.location}</span>
+          <span> · </span>
           <span>{info.mobile}</span>
           <span> · </span>
           <span>
@@ -56,7 +58,7 @@ const IndexPage = ({}, context) => {
         <div>
           {history.map((item, index) => {
             return (
-              <div>
+              <div key={`history-${index}`}>
                 <h3>
                   <span>{item.title}</span>
                   <span>, </span>
@@ -78,12 +80,16 @@ const IndexPage = ({}, context) => {
                 <div>
                   {item.projects.map((project, index) => {
                     return (
-                      <div>
+                      <div key={`project-${index}`}>
                         <p>{project.description}</p>
                         <ul>
                           {project.responsibilities.map(
                             (responsibility, index) => {
-                              return <li>{responsibility}</li>
+                              return (
+                                <li key={`responsibility-${index}`}>
+                                  {responsibility}
+                                </li>
+                              )
                             }
                           )}
                         </ul>
@@ -98,11 +104,27 @@ const IndexPage = ({}, context) => {
       </div>
       <div>
         <h3>Education</h3>
-        <ul>
-          {summary.map((item, index) => {
-            return <li key={`summary-${index}`}>{item}</li>
+        <div>
+          {educations.map((education, index) => {
+            return (
+              <div>
+                <h4>
+                  <span>{education.major}</span>
+                  <span>, </span>
+                  <span>{education.school}</span>
+                </h4>
+                <p>
+                  <i>{education.time}</i>
+                </p>
+                <ul>
+                  {education.achievements.map((achievement, index) => {
+                    return <li key={`achievement-${index}`}>{achievement}</li>
+                  })}
+                </ul>
+              </div>
+            )
           })}
-        </ul>
+        </div>
       </div>
     </div>
   )
