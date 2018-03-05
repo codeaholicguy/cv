@@ -103,16 +103,16 @@ const IndexPage = ({}, context) => {
         </div>
       </div>
       <div>
-        <h3>Education</h3>
+        <h2>Education</h2>
         <div>
           {educations.map((education, index) => {
             return (
               <div>
-                <h4>
+                <h3>
                   <span>{education.major}</span>
                   <span>, </span>
                   <span>{education.school}</span>
-                </h4>
+                </h3>
                 <p>
                   <i>{education.time}</i>
                 </p>
