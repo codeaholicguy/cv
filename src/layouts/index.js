@@ -6,6 +6,7 @@ import data from '../data/cv.json'
 
 const styles = {
   layout: {
+    fontFamily: 'Helvetica, arial, sans-serif',
     padding: `10px 30px 10px 30px`
   }
 }
