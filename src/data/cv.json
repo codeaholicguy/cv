@@ -30,9 +30,27 @@
   ],
   "history": [
     {
+      "title": "Engineering Manager",
+      "company": "ShopBack",
+      "time": "April 2018 to present",
+      "skills":
+        "JavaScript, NodeJS, ReactJS, Redux, MySQL, AWS, Kubernetes, Microservices, Chef, Consul",
+      "projects": [
+        {
+          "name": "Service Operation Platform",
+          "description":
+            "I led a 5 engineers team, creating a sophisticated Service Operation Platform for 7 countries. We enabled ShopBack engineers to significantly scale the way to develop the new features for the system. We eliminated many pain points from the engineering side and unified the development process so that they become more productive since they can optimize the development time by putting concern into the app instead of setting up things. Today, that platform is the primary way to develop features for Service Operation in ShopBack.",
+          "responsibilities": [
+            "I was the Architect who handles the architecture design of the platform, we transformed from a single code base for Service Operation Tool to multiple React apps, which is called sub-apps and plugged into the platform. The platform handles authentication, access control, audit log, controlling the accessible of sub-apps based on countries, etc.",
+            "I led the team and oversaw and made the decision on all aspects of architecture and development of both frontend and backend of the platform."
+          ]
+        }
+      ]
+    },
+    {
       "title": "Web Team Lead",
       "company": "Kobiton, KMS Technology",
-      "time": "April 2016 to present",
+      "time": "April 2016 to April 2018",
       "skills":
         "JavaScript, NodeJS, ReactJS, Redux, Jest, Enzyme, Electron, KoaJS, Sequelize, Appium, Babel, Gulp, Webpack, Nginx, PostgreSQL, ElasticSearch, LogStash, Kibana, Jenkins, AWS",
       "projects": [
