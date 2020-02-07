@@ -7,7 +7,9 @@ import ContentContext from '../../context/content'
 const styles = {
   layout: {
     fontFamily: 'Helvetica, arial, sans-serif',
-    padding: `10px 30px 10px 30px`
+    margin: 'auto',
+    padding: `10px 30px 10px 30px`,
+    maxWidth: `720px`
   }
 }
 
