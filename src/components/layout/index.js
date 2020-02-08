@@ -30,7 +30,12 @@ export default class Layout extends Component {
                 title={meta.title}
                 meta={[
                   {name: 'description', content: meta.description},
-                  {name: 'keywords', content: meta.keywords}
+                  {name: 'keywords', content: meta.keywords},
+                  {name: 'og:title', content: meta.title},
+                  {name: 'og:description', content: meta.description},
+                  {name: 'og:type', content: 'website'},
+                  {name: 'og:locale', content: 'vi_VN'},
+                  {name: 'og:site_name', content: meta.title}
                 ]}
               />
               <div style={styles.layout}>{children}</div>
