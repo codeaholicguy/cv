@@ -4,6 +4,11 @@ import Layout from '../components/layout'
 import ContentContext from '../context/content'
 
 const styles = {
+  intro: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+  },
   header: {
     paddingBottom: 10,
     borderBottom: 'solid 1px'
@@ -20,7 +25,10 @@ const IndexPage = () => {
           <Layout>
             <div>
               <div>
-                <h1>{info.name}</h1>
+                <div style={styles.intro}>
+                  <h1>{info.name}</h1>
+                  <a href="/cv_nguyennhathoang.pdf">Download</a>
+                </div>
                 <p>
                   <span>{info.location}</span>
                   <span> · </span>
