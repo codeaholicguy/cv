@@ -7,7 +7,7 @@ const styles = {
   intro: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'space-between',
+    justifyContent: 'space-between'
   },
   header: {
     paddingBottom: 10,
@@ -27,7 +27,7 @@ const IndexPage = () => {
               <div>
                 <div style={styles.intro}>
                   <h1>{info.name}</h1>
-                  <a href="/cv_nguyennhathoang.pdf">Download</a>
+                  <a className="btn-cv-download" href="/cv_nguyennhathoang.pdf">Download</a>
                 </div>
                 <p>
                   <span>{info.location}</span>
