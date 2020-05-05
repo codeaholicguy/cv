@@ -1,25 +1,25 @@
-import React from 'react'
+import React from "react";
 
-import Layout from '../components/layout'
-import ContentContext from '../context/content'
+import Layout from "../components/layout";
+import ContentContext from "../context/content";
 
 const styles = {
   intro: {
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between'
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "space-between",
   },
   header: {
     paddingBottom: 10,
-    borderBottom: 'solid 1px'
-  }
-}
+    borderBottom: "solid 1px",
+  },
+};
 
 const IndexPage = () => {
   return (
     <ContentContext.Consumer>
       {(content) => {
-        const {info, summary, awards, history, educations} = content
+        const { info, summary, awards, history, educations } = content;
 
         return (
           <Layout>
@@ -27,7 +27,14 @@ const IndexPage = () => {
               <div>
                 <div style={styles.intro}>
                   <h1>{info.name}</h1>
-                  <a className="btn-cv-download" href="/cv_nguyennhathoang.pdf">Download</a>
+                  {process.env.GATSBY_DOWNLOAD_ENABLE && (
+                    <a
+                      className="btn-cv-download"
+                      href="/cv_nguyennhathoang.pdf"
+                    >
+                      Download
+                    </a>
+                  )}
                 </div>
                 <p>
                   <span>{info.location}</span>
@@ -56,7 +63,7 @@ const IndexPage = () => {
                 <h2 style={styles.header}>Career summary</h2>
                 <ul>
                   {summary.map((item, index) => {
-                    return <li key={`summary-${index}`}>{item}</li>
+                    return <li key={`summary-${index}`}>{item}</li>;
                   })}
                 </ul>
               </div>
@@ -70,7 +77,7 @@ const IndexPage = () => {
                         <span> – </span>
                         <span>{item.detail}</span>
                       </li>
-                    )
+                    );
                   })}
                 </ul>
               </div>
@@ -127,16 +134,16 @@ const IndexPage = () => {
                                         <li key={`responsibility-${index}`}>
                                           {responsibility}
                                         </li>
-                                      )
+                                      );
                                     }
                                   )}
                                 </ul>
                               </div>
-                            )
+                            );
                           })}
                         </div>
                       </div>
-                    )
+                    );
                   })}
                 </div>
               </div>
@@ -160,20 +167,20 @@ const IndexPage = () => {
                               <li key={`achievement-${index}`}>
                                 {achievement}
                               </li>
-                            )
+                            );
                           })}
                         </ul>
                       </div>
-                    )
+                    );
                   })}
                 </div>
               </div>
             </div>
           </Layout>
-        )
+        );
       }}
     </ContentContext.Consumer>
-  )
-}
+  );
+};
 
-export default IndexPage
+export default IndexPage;
