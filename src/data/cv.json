@@ -81,9 +81,9 @@
       "skills": "Java, ElasticSearch, Solr, Gearman, Apache Kafka, Apache Thrift, Redis, Memcached, Kyoto Cabinet, Jetty Embedded, Nginx, MySQL, HTML5/CSS3, Javascript, jQuery",
       "projects": [
         {
-          "name": "XMusic",
-          "link": "http://xmusic-apps.com",
-          "description": "XMusic is a quite new product of online music and video streaming of NCT Corporation. With premium content from major music record labels like Sony Music, Universal Music, Warner Music topped with most popular local artists. Currently, it has over 1 million downloads from two main platform iOS and Android.",
+          "name": "XMusic Station",
+          "link": "http://xms.vn/",
+          "description": "XMusic Station is a streaming music solution for business with premium content from major music record labels like Sony Music, Universal Music, Warner Music topped with most popular local artists.",
           "responsibilities": [
             "I was the lead developer of the team 3 members, we were responsible for building a scalability, high availability and high-performance back -end services using Microservices architecture.",
             "I handled designing, estimation, development, code review of all modules of the backend system.",
