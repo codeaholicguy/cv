@@ -78,7 +78,7 @@
       "title": "Senior Software Engineer",
       "company": "NCT Corporation",
       "time": "April 2015 to April 2016",
-      "skills": "Java, ElasticSearch, Solr, Gearman, Apache Kafka, Apache Thrift, Redis, Memcached, Kyoto Cabinet, Jetty Embedded, Nginx, MySQL, HTML5/CSS3, Javascript, jQuery",
+      "skills": "Java, ElasticSearch, Solr, Gearman, Apache Kafka, Apache Thrift, Redis, Memcached, Kyoto Cabinet, Jetty Embedded, Nginx, MySQL, HTML5/CSS3, JavaScript, jQuery",
       "projects": [
         {
           "name": "XMusic Station",
@@ -108,7 +108,7 @@
       "title": "Software Engineer",
       "company": "FPT Software Ho Chi Minh",
       "time": "Jan 2013 to April 2015",
-      "skills": "HTML5/CSS3, Javascript, Java, Spring, Jersey, Thyme leaf, Hibernate, JPA, ElasticSearch, Redis, Memcached, MySQL, OracleDB, LDAP, Tomcat, OAuth, Facebook Graph API, Twitter API, AWS",
+      "skills": "HTML5/CSS3, JavaScript, Java, Spring, Jersey, Thyme leaf, Hibernate, JPA, ElasticSearch, Redis, Memcached, MySQL, OracleDB, LDAP, Tomcat, OAuth, Facebook Graph API, Twitter API, AWS",
       "projects": [
         {
           "name": "Actvila",
