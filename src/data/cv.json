@@ -34,8 +34,11 @@
       "projects": [
         {
           "name": "As a Technical Director",
-          "description": "I was responsible for building world-class engineering teams, establishing a strong vision for the team, and ensuring the team's culture of excellent of innovation.",
+          "description": "I was responsible for building world-class engineering teams in Vietnam, establishing a strong vision for the team, and ensuring the team's culture of excellent innovation.",
           "responsibilities": [
+            "I participated as a member of the senior management team in establishing governance to ensure that objectives are achieved, risks are managed appropriately and the organization’s resources are used responsibly.",
+            "I worked with Engineering Managers to establish the engineering standard and guidance to develop effective architectures and technical designs that create solid foundations for the ShopBack system.",
+            "I led and participated in key products across the Online Affiliate business including Merchant & Network, Offer Catalog, Pricing."
           ]
         }
       ]
@@ -48,12 +51,11 @@
       "projects": [
         {
           "name": "Micro-services extraction",
-          "description": "I lead a tribe of 7 senior engineers. We are an inclusive and diverse team doing core micro-services extraction from a monolith system to Kubetnetes. The team partners closely with our business, stakeholders, product managers, and designers.",
+          "description": "I led a tribe of 7 senior engineers. We were an inclusive and diverse team doing core micro-services extraction from a monolith system to Kubetnetes. The team partnered closely with our business, stakeholders, product managers, and designers.",
           "responsibilities": [
-            "I oversee and make the decision on all aspects of architecture and development, including business-focussed trade-offs around technology, features, quality and test strategy.",
-            "I work closely with the team and stakeholders to define tech and organizational debt, gather requirements from partners, introduce agile, communicate team strategy and sponsor team members to new learning opportunities.",
-            "I own and am responsible for hiring top talent in a high-performance engineering team, craft a structured and fair interview process and create a diverse candidate pipeline in collaboration with HR and technical recruiters.",
-            "I envision and build out team-wide strategy bets in collaboration with high-level leadership."
+            "I oversaw and made the decision on all aspects of architecture and development including business-focussed trade-offs around technology, features, quality and test strategy.",
+            "I worked closely with the team and stakeholders to define tech and organizational debt, gathered requirements from partners, introduce agile, communicated team strategy and sponsored team members to new learning opportunities.",
+            "I owned and was responsible for hiring top talent in a high-performance engineering team, crafted a structured and fair interview process and created a diverse candidate pipeline in collaboration with HR and technical recruiters."
           ]
         },
         {
