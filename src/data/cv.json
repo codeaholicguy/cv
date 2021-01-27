@@ -14,13 +14,11 @@
     "blog": "https://codeaholicguy.com"
   },
   "summary": [
-    "I am a polyglot Engineering Manager, accomplished public speaker, and thoughtful software engineer. I have been a full-stack software engineer with more than 7 years in Web Application Development, Enterprise Application, Microservices and Cloud Computing Development with extensive knowledge of Object-Oriented Analysis and Design, Architecture Design, Database Design, Design Pattern.",
-    "I have more than 3 years in managing engineering teams and driving large-scale projects and products, collaboration with product, design and commercial teams to succeed.",
-    "I have extensive knowledge of JavaScript, NodeJS, Java, and related technologies like React/Redux, Spring framework, Hibernate, etc.",
-    "I have massive experience in designing scalability, high availability and high-performance back end services using Load Balancing, RPC, Caching, Message Queue System.",
-    "I am strong at leading, communication skill, like to help other and tend to work well within a group. I passionate about learning new languages and technologies as well as sharing with others.",
-    "I own a Vietnamese IT blog, love to share my working experience and knowledge with other developers.",
-    "I am also a speaker, a maintainer of some open-source projects and I love doing that."
+    "I have more than 8 years of experience in technical leadership with extensive experience in building and managing high-performing, diverse, and inclusive engineering teams that develop and maintain large-scale internet products and participated actively with stakeholders and executive teams on technology, business strategy, product roadmap, engineering and corporate culture, hiring, and other aspects of leadership.",
+    "I have experience in building and growing engineering teams from the ground up, managing the teams and products with a data-driven and context-driven approach, leading the teams through changes, reorganizations and attritions. Besides, I have a good blend of technical and management skills to identify and implement process and performance improvements in teams and products.",
+    "I have extensive knowledge of JavaScript, NodeJS, Java, and related technologies and massive experience in designing scalability, high availability and high-performance back­end systems using Load Balancing, RPC, Caching, Message Queue System.",
+    "I am strong at leading, communication skills, like to help others and tend to work well within a group.",
+    "I passionate about learning new things, especially technologies. I own a Vietnamese IT blog (https://codeaholicguy.com/), love to share my working experience and knowledge with others. I am also a speaker, a maintainer of some open-source projects (https://github.com/codeaholicguy) and I love doing that."
   ],
   "awards": [
     {
@@ -30,9 +28,26 @@
   ],
   "history": [
     {
+      "title": "Technical Director",
+      "company": "ShopBack",
+      "time": "September 2020 to present",
+      "skills": "Technical leadership",
+      "projects": [
+        {
+          "name": "As a Technical Director",
+          "description": "I was responsible for building world-class engineering teams, establishing a strong vision for the team, and ensuring the team's culture of excellent of innovation.",
+          "responsibilities": [
+            "I was involved in establishing the company's objectives and ensured that Engineering's objectives successfully mapped to that.",
+            "I defined a framework to shutdown legacy services with the minimum impact to end-users and led the smooth collaboration and handovers of projects between teams for reliable maintenance and further enhancements.",
+            "I established a framework for ease of secure, rapid, and, functionally correct development and deployment and provided standards and guidance for the Engineering team to accelerate the pace of sustainable and secure software development."
+          ]
+        }
+      ]
+    },
+    {
       "title": "Engineering Manager",
       "company": "ShopBack",
-      "time": "April 2018 to present",
+      "time": "April 2018 to September 2020",
       "skills": "JavaScript, NodeJS, ReactJS, Redux, MySQL, AWS, Kubernetes, Microservices, Chef, Consul",
       "projects": [
         {
