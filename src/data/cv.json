@@ -7,19 +7,22 @@
   "info": {
     "name": "Nguyen Nhat Hoang",
     "location": "Ho Chi Minh, VN",
-    "mobile": "+84398246714",
     "email": "hoangnn93@gmail.com",
     "linkedin": "https://vn.linkedin.com/in/nguyennhathoang",
     "github": "https://github.com/codeaholicguy",
     "blog": "https://codeaholicguy.com"
   },
   "summary": [
-    "I have more than 8 years of experience in the software industry, 5 years of experience in technical leadership with extensive experience in building and managing high-performing, diverse, and inclusive engineering teams that develop and maintain large-scale internet products. Participated actively with stakeholders and executive teams on technology, business strategy, product roadmap, engineering and corporate culture, hiring, and other aspects of leadership.",
+    "I have more than 10 years of experience in the software industry, 5 years of experience in technical leadership with extensive experience in building and managing high-performing, diverse, and inclusive engineering teams that develop and maintain large-scale internet products. Participated actively with stakeholders and executive teams on technology, business strategy, product roadmap, engineering and corporate culture, hiring, and other aspects of leadership.",
     "I have experience in building and growing engineering teams from the ground up, managing the teams and products with a data-driven and context-driven approach, leading the teams through changes, reorganizations and attritions. Besides, I have a good blend of technical and management skills to identify and implement process and performance improvements in teams and products.",
     "I have extensive knowledge of JavaScript, NodeJS, Java, and related technologies and massive experience in designing scalability, high availability and high-performance back­end systems using Load Balancing, RPC, Caching, Message Queue System.",
     "Read my personal blog here https://codeaholicguy.com/"
   ],
   "awards": [
+    {
+      "year": "2022",
+      "detail": "Github Star"
+    },
     {
       "year": "2016",
       "detail": "Best product in Marketing Category of Facebook Hackathon Vietnam 2016, team Ambar."
@@ -27,18 +30,36 @@
   ],
   "history": [
     {
+      "title": "Head of Engineering",
+      "company": "ShopBack",
+      "time": "October 2021 to present",
+      "skills": "Engineering leadership",
+      "projects": [
+        {
+          "name": "As a Head of Engineering",
+          "description": "I was responsible for building strong engineering teams for ShopBack in Vietnam, establishing a strong vision for the group, and ensuring the team's culture of excellent innovation.",
+          "responsibilities": [
+            "I worked directly with the CTO and participated as a senior management team member in establishing governance to ensure that objectives are met, risks are appropriately managed, and the organization's resources are used responsibly.",
+            "I was in charge of the Online Affiliate, Intelligence Content, and Web areas (with 3 direct report Engineering Managers and 10 direct report Individual Contributors). I reorganized Vietnam Engineering Group into multiple Product and Platform teams so that each team has long-term ownership of the roadmap and outcomes. These areas contain multiple product and platform teams such as Merchants & Networks, Offers & Pricing, Challenge Platform, Content Platform, and Web Platform.",
+            "I established a sustainable and unified Engineering Hiring Process for growing Vietnam Engineering Group and collaborated with other VPs to standardize the Process, Pipeline, and Metrics at the group level so that we can have consistent hiring standards across the region. In 2022, the Vietnam Engineering Group grew 45% in 2022 with attrition rate below 10%.",
+            "I owned and led the effort to grow people and build a strong engineering culture with excellent innovation. I worked with senior members to define the Engineering Principles and framework for execution. At the end of 2022, the engagement score of the Vietnam Engineering Group was above 80%."
+          ]
+        }
+      ]
+    },
+    {
       "title": "Technical Director",
       "company": "ShopBack",
-      "time": "September 2020 to present",
+      "time": "September 2020 to October 2021",
       "skills": "Technical leadership",
       "projects": [
         {
           "name": "As a Technical Director",
-          "description": "I was responsible for building strong engineering teams  for ShopBack in Vietnam, establishing a strong vision for the team, and ensuring the team's culture of excellent innovation.",
+          "description": "I was responsible for establishing a robust technical vision for the group.",
           "responsibilities": [
             "I participated as a member of the senior management team in establishing governance to ensure that objectives are achieved, risks are managed appropriately and the organization’s resources are used responsibly.",
             "I worked with Engineering Managers to establish the engineering standard and guidance to develop effective architectures and technical designs that create solid foundations for the ShopBack system.",
-            "I led and participated in key products across the Online Affiliate business including Merchant & Network, Offer Catalog, Pricing."
+            "I led and participated in key products across the Online Affiliate business including Merchant & Network, Offers & Pricing."
           ]
         }
       ]
