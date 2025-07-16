@@ -13,10 +13,10 @@
     "blog": "https://codeaholicguy.com"
   },
   "summary": [
-    "I am an engineering executive with over 12+ years of experience scaling global engineering teams, shaping technology strategy, and driving transformative initiatives in AI-first product development. As Director of Engineering at ShopBack, I lead a team of 60+ engineers and managers across Product Engineering, Platform, Data, and Infrastructure teams, delivering innovative platforms that power SGD 100M+ annual GMV.",
-    "I'm passionate about accelerating product cycles, boosting organizational efficiency, and cultivating high-performing engineering cultures.",
-    "I have a substantial amount of experience in participating and collaborating with stakeholders and executive teams on technology, business strategy, product roadmap, engineering and corporate culture, hiring, and other aspects of leadership.",
-    "I have extensive knowledge of JavaScript, NodeJS, Java, and related technologies and massive experience in designing scalability, high availability and high-performance back­end systems using Load Balancing, RPC, Caching, Message Queue System.",
+    "Engineering executive with over 12+ years of experience scaling global engineering teams, shaping technology strategy, and driving transformative initiatives in AI-first product development. As Director of Engineering at ShopBack, I lead a team of 60+ engineers and managers across Product Engineering, Platform, Data, and Infrastructure teams, delivering innovative platforms that power SGD 100M+ annual revenue.",
+    "Passionate about accelerating product cycles, boosting organizational efficiency, and cultivating high-performing engineering cultures.",
+    "Substantial amount of experience in participating and collaborating with stakeholders and executive teams on technology, business strategy, product roadmap, engineering and corporate culture, hiring, and other aspects of leadership.",
+    "Extensive knowledge of JavaScript, NodeJS, Java, and related technologies and massive experience in designing scalability, high availability and high-performance back­end systems using Load Balancing, RPC, Caching, Message Queue System.",
     "Read my personal notes at https://codeaholicguy.com/"
   ],
   "awards": [
@@ -31,36 +31,40 @@
   ],
   "history": [
     {
+      "title": "Director of Engineering",
+      "company": "ShopBack",
+      "time": "January 2024 to present",
+      "skills": "Engineering leadership, AI-first product development, Team management, Strategic planning, Cross-functional collaboration",
+      "projects": [
+        {
+          "name": "As a Director of Engineering",
+          "description": "I was responsible for leading the engineering organization at ShopBack, overseeing Product Engineering, Platform, Data, and Infrastructure teams.",
+          "responsibilities": [
+            "Leading a team of 60+ engineers and managers across multiple teams, delivering innovative platforms that power SG$ 100M+ annual revenue.",
+            "Successfully led multi-tenancy migration, consolidating 200+ services into fewer than 10 optimized Node.js processes, achieving annual AWS cost savings of USD 2M, 99.99% uptime, and increasing infrastructure utilization to 60% BAU.",
+            "Reduced idea-to-production delivery timeline by 30% (14 to 10 days) through AI adoption (GitHub Copilot, Cursor, internal LLM tools).",
+            "Managed rapid US market expansion on engineering side, launching complex features including Quests, Amazon Integration, and Shipping Rebates within a tight 90-day timeline.",
+            "Drove and led a comprehensive web platform revamp, reducing operational costs by 90% and accelerating the feature launch timeline from weeks to days."
+          ]
+        }
+      ]
+
+    },
+    {
       "title": "Head of Engineering",
       "company": "ShopBack",
-      "time": "October 2021 to present",
+      "time": "September 2020 to January 2024",
       "skills": "Engineering leadership",
       "projects": [
         {
           "name": "As a Head of Engineering",
           "description": "I was responsible for building strong engineering teams for ShopBack in Vietnam, establishing a strong vision for the group, and ensuring the team's culture of excellent innovation.",
           "responsibilities": [
-            "I worked directly with the CTO and participated as a senior management team member in establishing governance to ensure that objectives are met, risks are appropriately managed, and the organization's resources are used responsibly.",
-            "I was in charge of the Online Affiliate, Intelligence Content, and Web areas (with 3 direct report Engineering Managers and 10 direct report Individual Contributors). I reorganized Vietnam Engineering Group into multiple Product and Platform teams so that each team has long-term ownership of the roadmap and outcomes. These areas contain multiple product and platform teams such as Merchants & Networks, Offers & Pricing, Challenge Platform, Content Platform, and Web Platform.",
-            "I established a sustainable and unified Engineering Hiring Process for growing Vietnam Engineering Group and collaborated with other VPs to standardize the Process, Pipeline, and Metrics at the group level so that we can have consistent hiring standards across the region. In 2022, the Vietnam Engineering Group grew 45% with attrition rate below 10%.",
-            "I owned and led the effort to grow people and build a strong engineering culture with excellent innovation. I worked with senior members to define the Engineering Principles and framework for execution. The Vietnam Engineering Group's engagement score at the end of 2022 was 80%, up 67% from 2021."
-          ]
-        }
-      ]
-    },
-    {
-      "title": "Technical Director",
-      "company": "ShopBack",
-      "time": "September 2020 to October 2021",
-      "skills": "Technical leadership",
-      "projects": [
-        {
-          "name": "As a Technical Director",
-          "description": "I was responsible for establishing a robust technical vision for the group.",
-          "responsibilities": [
-            "I joined the senior management team in establishing governance to ensure that objectives are achieved, risks are managed appropriately and the organization’s resources are used responsibly.",
-            "I worked with Engineering Managers to establish the engineering standard and guidance to develop effective architectures and technical designs that create solid foundations for the ShopBack system.",
-            "I led and participated in key products across the Online Affiliate business including Merchant & Network, Offers & Pricing."
+            "Worked directly with the CTO and participated as a senior management team member in establishing governance to ensure that objectives are met, risks are appropriately managed, and the organization's resources are used responsibly.",
+            "Standardized global engineering hiring process, leading to 39% team growth and significant increase in talent density.",
+            "Delivered new system for optimizing operational workflows company-wide, achieving 60% efficiency improvement in merchant onboarding and campaign management processes.",
+            "Implemented cohesive engineering culture improvements, lifting Vietnam Tech Group engagement scores by 67% (from 48% to 80%) within one year.",
+            "Delivered 26 high-impact global product launches, including Cashback Platform deployed successfully across 11 markets with minimal incidents, allowing to reduce cashback track time to 30 minutes."
           ]
         }
       ]
@@ -75,24 +79,24 @@
           "name": "Micro-services extraction",
           "description": "I led a tribe of 7 senior engineers. We were an inclusive and diverse team doing core micro-services extraction from a monolith system to Kubetnetes. The team partnered closely with our business, stakeholders, product managers, and designers.",
           "responsibilities": [
-            "I oversaw and made the decision on all aspects of architecture and development including business-focussed trade-offs around technology, features, quality and test strategy.",
-            "I worked closely with the team and stakeholders to define tech and organizational debt, gathered requirements from partners, introduce agile, communicated team strategy and sponsored team members to new learning opportunities.",
-            "I owned and was responsible for hiring top talent in a high-performance engineering team, crafted a structured and fair interview process and created a diverse candidate pipeline in collaboration with HR and technical recruiters."
+            "Oversaw and made the decision on all aspects of architecture and development including business-focussed trade-offs around technology, features, quality and test strategy.",
+            "Worked closely with the team and stakeholders to define tech and organizational debt, gathered requirements from partners, introduce agile, communicated team strategy and sponsored team members to new learning opportunities.",
+            "Owned and was responsible for hiring top talent in a high-performance engineering team, crafted a structured and fair interview process and created a diverse candidate pipeline in collaboration with HR and technical recruiters."
           ]
         },
         {
           "name": "Service Operation Platform",
           "description": "I led a 5 engineers team, creating a sophisticated Service Operation Platform for 7 countries. We enabled ShopBack engineers to significantly scale the way to develop the new features for the system. We eliminated many pain points from the engineering side and unified the development process so that they become more productive since they can optimize the development time by putting concern into the app instead of setting up things. Today, that platform is the primary way to develop features for Service Operation in ShopBack.",
           "responsibilities": [
-            "I was the Architect who handles the architecture design of the platform, we transformed from a single code base for Service Operation Tool to multiple React apps, which is called sub-apps and plugged into the platform. The platform handles authentication, access control, audit log, controlling the accessible of sub-apps based on countries, etc.",
-            "I led the team and oversaw and made the decision on all aspects of architecture and development of both frontend and backend of the platform."
+            "Handled the architecture design of the platform, we transformed from a single code base for Service Operation Tool to multiple React apps, which is called sub-apps and plugged into the platform. The platform handles authentication, access control, audit log, controlling the accessible of sub-apps based on countries, etc.",
+            "Led the team and oversaw and made the decision on all aspects of architecture and development of both frontend and backend of the platform."
           ]
         }
       ]
     },
     {
       "title": "Team Lead",
-      "company": "Kobiton, KMS Technology",
+      "company": "Kobiton",
       "time": "April 2016 to April 2018",
       "skills": "JavaScript, NodeJS, ReactJS, Redux, Jest, Enzyme, Electron, KoaJS, Sequelize, Appium, Babel, Gulp, Webpack, Nginx, PostgreSQL, ElasticSearch, LogStash, Kibana, Jenkins, AWS",
       "projects": [
@@ -101,10 +105,10 @@
           "link": "https://kobiton.com",
           "description": "Kobiton is a mobile application testing service enables the user to test their Android, iOS, and Web apps on real, physical phones and tablets that are hosted by Kobiton cloud. A test report will be generated for each device being part of test execution, which contains playback, detailed logs, HTTP Commands, and Metadata. Support test automation using the Appium framework, which allows testing of native and hybrid Android, iOS applications created with PhoneGap, Titanium, Xamarin, Unity, and other frameworks.",
           "responsibilities": [
-            "I managed the team with 5 members, we were responsible for Kobiton portal.",
-            "I oversaw and made the decision on all aspects of architecture and development of both frontend and backend of the product, including business focussed trade-offs around technology, features, quality and test strategy.",
-            "I mentored and paired with team members to help them learn new technologies, resolve their problems and ship features.",
-            "I validated customer problems and found user-focussed solutions by working directly with customers, product and sales teams."
+            "Managed the team with 5 members, we were responsible for Kobiton portal.",
+            "Oversaw and made the decision on all aspects of architecture and development of both frontend and backend of the product, including business focussed trade-offs around technology, features, quality and test strategy.",
+            "Mentored and paired with team members to help them learn new technologies, resolve their problems and ship features.",
+            "Validated customer problems and found user-focussed solutions by working directly with customers, product and sales teams."
           ]
         }
       ]
@@ -120,9 +124,9 @@
           "link": "http://xms.vn/",
           "description": "XMusic Station is a streaming music solution for business with premium content from major music record labels like Sony Music, Universal Music, Warner Music topped with most popular local artists.",
           "responsibilities": [
-            "I was the lead developer of the team 3 members, we were responsible for building a scalability, high availability and high-performance back -end services using Microservices architecture.",
-            "I handled designing, estimation, development, code review of all modules of the backend system.",
-            "I mentored and paired with others to help them and coordinated with other teams (product, mobile app, admin dashboard) for shipping features."
+            "Was the lead developer of the team 3 members, we were responsible for building a scalability, high availability and high-performance back -end services using Microservices architecture.",
+            "Handled designing, estimation, development, code review of all modules of the backend system.",
+            "Mentored and paired with others to help them and coordinated with other teams (product, mobile app, admin dashboard) for shipping features."
           ]
         },
         {
@@ -130,11 +134,11 @@
           "link": "https://nhaccuatui.com",
           "description": "nhaccuatui.com is one of the largest Vietnamese music on demand services, which runs on multiple platforms like Web, Android, iOS, Smart TV, WAP, Window Phone, Windows with over millions of views per day and average concurrent user on all types of device is over 30000.",
           "responsibilities": [
-            "I was the core developer of backend team.",
-            "I re-designed the architecture of the backend system follow Microservices architecture in order to reduce the cost of operation and increase the scalability as well as the performance of the system.",
-            "I involved in designing, estimation, and development of various modules of the backend system.",
-            "I mentored and paired with team members to help them learn new technologies and ship features, I was also the one who usually did research new things and shared it with the team.",
-            "I coordinated with other teams for shipping features."
+            "Was the core developer of backend team.",
+            "Re-designed the architecture of the backend system follow Microservices architecture in order to reduce the cost of operation and increase the scalability as well as the performance of the system.",
+            "Involved in designing, estimation, and development of various modules of the backend system.",
+            "Mentored and paired with team members to help them learn new technologies and ship features, I was also the one who usually did research new things and shared it with the team.",
+            "Coordinated with other teams for shipping features."
           ]
         }
       ]
@@ -150,18 +154,18 @@
           "link": "https://actvila.jp",
           "description": "Actvila is a large Japanese video on demand service, which provides streaming multimedia content on multiple platforms such as Web, iOS, Android and especially focus on TV.",
           "responsibilities": [
-            "I was the core developer of the project, who handled the Authentication services and various features in backend side.",
-            "I worked directly with the customer to understand the requirements of the project and finalize its scope.",
-            "I played full-stack developer role in the project and joined in whole project process include designing, estimation, and implementation."
+            "Was the core developer of the project, who handled the Authentication services and various features in backend side.",
+            "Worked directly with the customer to understand the requirements of the project and finalize its scope.",
+            "Played full-stack developer role in the project and joined in whole project process include designing, estimation, and implementation."
           ]
         },
         {
           "name": "Toshiba Cloud TV",
           "description": "Toshiba Cloud TV Services provide services for millions Toshiba Smart TV users in multiple markets such as Euro, North America, Japanese. With key features are  multimedia playback via USB or WIFI/LAN network, providing media guide approach to listings browsing, link TV with mobile device such as iOS, Android for control as well as link multiple TV for sharing information, booking calendar for recording TV program, future viewing history-based recommendations system, interaction with social network services such as Facebook, Twitter.",
           "responsibilities": [
-            "I was the backend developer of various modules.",
-            "I worked directly with the customer to understand the requirements of the project and finalize its scope as well as help them in changing requirements.",
-            "I designed and implemented the backend for the recommendation module, the social network modules."
+            "Was the backend developer of various modules.",
+            "Worked directly with the customer to understand the requirements of the project and finalize its scope as well as help them in changing requirements.",
+            "Designed and implemented the backend for the recommendation module, the social network modules."
           ]
         }
       ]
