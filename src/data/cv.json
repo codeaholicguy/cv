@@ -8,16 +8,19 @@
     "name": "Nguyen Nhat Hoang",
     "location": "Stockholm, Sweden",
     "email": "hoang@codeaholicguy.com",
-    "linkedin": "https://vn.linkedin.com/in/nguyennhathoang",
-    "github": "https://github.com/codeaholicguy",
-    "blog": "https://codeaholicguy.com"
+    "links": [
+      "https://vn.linkedin.com/in/nguyennhathoang",
+      "https://github.com/codeaholicguy",
+      "https://codeaholicguy.com",
+      "https://ownthecraftbook.com"
+    ]
   },
   "summary": [
     "Engineering executive with over 12+ years of experience scaling global engineering teams, shaping technology strategy, and driving transformative initiatives in AI-first product development. As Director of Engineering at ShopBack, I lead a team of 60+ engineers and managers across Product Engineering, Platform, Data, and Infrastructure teams, delivering innovative platforms that power SGD 100M+ annual revenue.",
     "Passionate about accelerating product cycles, boosting organizational efficiency, and cultivating high-performing engineering cultures.",
     "Substantial amount of experience in participating and collaborating with stakeholders and executive teams on technology, business strategy, product roadmap, engineering and corporate culture, hiring, and other aspects of leadership.",
     "Extensive knowledge of JavaScript, NodeJS, Java, and related technologies and massive experience in designing scalability, high availability and high-performance back­end systems using Load Balancing, RPC, Caching, Message Queue System.",
-    "Read my personal notes at https://codeaholicguy.com/"
+    "Read my personal notes at <a href=\"https://codeaholicguy.com\" rel=\"noopener noreferrer\" target=\"_blank\">https://codeaholicguy.com/</a>."
   ],
   "awards": [
     {
@@ -34,13 +37,14 @@
       "title": "Director of Engineering",
       "company": "ShopBack",
       "time": "January 2024 to present, Singapore & Vietnam",
-      "skills": "Engineering leadership, AI-first product development, Team management, Strategic planning, Cross-functional collaboration, AI adoption, High-performance engineering culture",
+      "skills": "Engineering leadership, AI-first product development, Team management, Strategic planning, Cross-functional collaboration, High-performance engineering culture",
       "projects": [
         {
-          "name": "As a Director of Engineering",
+          "name": "As a Director of Engineering at ShopBack",
+          "link": "https://www.shopback.com",
           "description": "I was responsible for leading the engineering organization at ShopBack, overseeing Product Engineering, Platform, Data, and Infrastructure teams.",
           "responsibilities": [
-            "Leading a team of 60+ engineers and managers across multiple teams, delivering innovative platforms that power SG$ 100M+ annual revenue.",
+            "Leading a team of 60+ engineers and managers across multiple teams in Singapore and Vietnam, delivering innovative platforms that power SG$ 100M+ annual revenue.",
             "Successfully led multi-tenancy migration, consolidating 200+ services into fewer than 10 optimized Node.js processes, achieving annual AWS cost savings of USD 2M, 99.99% uptime, and increasing infrastructure utilization to 60% BAU.",
             "Reduced idea-to-production delivery timeline by 30% (14 to 10 days) through AI adoption (GitHub Copilot, Cursor, internal LLM tools).",
             "Managed rapid US market expansion on engineering side, launching complex features including Quests, Amazon Integration, and Shipping Rebates within a tight 90-day timeline.",
@@ -48,7 +52,6 @@
           ]
         }
       ]
-
     },
     {
       "title": "Head of Engineering",

@@ -31,6 +31,8 @@ const IndexPage = () => {
                     <a
                       className="btn-cv-download"
                       href="/cv_nguyennhathoang.pdf"
+                      rel="noopener noreferrer"
+                      target="_blank"
                     >
                       Download
                     </a>
@@ -39,31 +41,50 @@ const IndexPage = () => {
                 <p>
                   <span>{info.location}</span>
                   <span> · </span>
-                  <span>{info.mobile}</span>
-                  <span> · </span>
+                  {info.mobile && (
+                    <>
+                      <span>{info.mobile}</span>
+                      <span> · </span>
+                    </>
+                  )}
                   <span>
-                    <a href={info.email}>{info.email}</a>
+                    <a
+                      href={info.email}
+                      rel="noopener noreferrer"
+                      target="_blank"
+                    >
+                      {info.email}
+                    </a>
                   </span>
                 </p>
                 <p>
-                  <span>
-                    <a href={info.linkedin}>{info.linkedin}</a>
-                  </span>
-                  <span> · </span>
-                  <span>
-                    <a href={info.github}>{info.github}</a>
-                  </span>
-                  <span> · </span>
-                  <span>
-                    <a href={info.blog}>{info.blog}</a>
-                  </span>
+                  {info.links &&
+                    info.links.length > 0 &&
+                    info.links.map((link, index) => {
+                      return (
+                        <span key={`link-${index}`}>
+                          <a
+                            href={link}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            {link}
+                          </a>
+                          {index < info.links.length - 1 && <span> · </span>}
+                        </span>
+                      );
+                    })}
                 </p>
               </div>
               <div>
                 <h2 style={styles.header}>Career summary</h2>
                 <ul>
                   {summary.map((item, index) => {
-                    return <li key={`summary-${index}`}>{item}</li>;
+                    return (
+                      <li key={`summary-${index}`}>
+                        {<div dangerouslySetInnerHTML={{ __html: item }}></div>}
+                      </li>
+                    );
                   })}
                 </ul>
               </div>
@@ -117,7 +138,11 @@ const IndexPage = () => {
                                     <span>
                                       <span> (</span>
                                       <span>
-                                        <a href={project.link}>
+                                        <a
+                                          href={project.link}
+                                          rel="noopener noreferrer"
+                                          target="_blank"
+                                        >
                                           {project.link}
                                         </a>
                                       </span>
@@ -135,7 +160,7 @@ const IndexPage = () => {
                                           {responsibility}
                                         </li>
                                       );
-                                    }
+                                    },
                                   )}
                                 </ul>
                               </div>
