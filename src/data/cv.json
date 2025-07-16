@@ -2,7 +2,7 @@
   "meta": {
     "title": "Nguyen Nhat Hoang",
     "description": "Nguyen Nhat Hoang Curriculum Vitae",
-    "keywords": "cv, nguyen nhat hoang, codeaholicguy, curriculum vitae, resume, linkedin"
+    "keywords": "cv, nguyen nhat hoang, codeaholicguy, curriculum vitae, resume, linkedin, github, software engineer, director of engineering, shopback, ai-first product development, engineering leadership, software development, technology strategy, team management, high-performance engineering culture, ai adoption"
   },
   "info": {
     "name": "Nguyen Nhat Hoang",
@@ -33,8 +33,8 @@
     {
       "title": "Director of Engineering",
       "company": "ShopBack",
-      "time": "January 2024 to present",
-      "skills": "Engineering leadership, AI-first product development, Team management, Strategic planning, Cross-functional collaboration",
+      "time": "January 2024 to present, Singapore & Vietnam",
+      "skills": "Engineering leadership, AI-first product development, Team management, Strategic planning, Cross-functional collaboration, AI adoption, High-performance engineering culture",
       "projects": [
         {
           "name": "As a Director of Engineering",
@@ -53,8 +53,8 @@
     {
       "title": "Head of Engineering",
       "company": "ShopBack",
-      "time": "September 2020 to January 2024",
-      "skills": "Engineering leadership",
+      "time": "September 2020 to January 2024, Vietnam",
+      "skills": "Engineering leadership, Team management, Strategic planning, Cross-functional collaboration",
       "projects": [
         {
           "name": "As a Head of Engineering",
@@ -72,7 +72,7 @@
     {
       "title": "Engineering Manager",
       "company": "ShopBack",
-      "time": "April 2018 to September 2020",
+      "time": "April 2018 to September 2020, Vietnam",
       "skills": "JavaScript, NodeJS, ReactJS, Redux, MySQL, AWS, Kubernetes, Microservices, Chef, Consul",
       "projects": [
         {
@@ -97,7 +97,7 @@
     {
       "title": "Team Lead",
       "company": "Kobiton",
-      "time": "April 2016 to April 2018",
+      "time": "April 2016 to April 2018, Vietnam",
       "skills": "JavaScript, NodeJS, ReactJS, Redux, Jest, Enzyme, Electron, KoaJS, Sequelize, Appium, Babel, Gulp, Webpack, Nginx, PostgreSQL, ElasticSearch, LogStash, Kibana, Jenkins, AWS",
       "projects": [
         {
@@ -116,7 +116,7 @@
     {
       "title": "Senior Software Engineer",
       "company": "NCT Corporation",
-      "time": "April 2015 to April 2016",
+      "time": "April 2015 to April 2016, Vietnam",
       "skills": "Java, ElasticSearch, Solr, Gearman, Apache Kafka, Apache Thrift, Redis, Memcached, Kyoto Cabinet, Jetty Embedded, Nginx, MySQL, HTML5/CSS3, JavaScript, jQuery",
       "projects": [
         {
@@ -145,8 +145,8 @@
     },
     {
       "title": "Software Engineer",
-      "company": "FPT Software Ho Chi Minh",
-      "time": "Jan 2013 to April 2015",
+      "company": "FPT Software",
+      "time": "Jan 2013 to April 2015, Vietnam",
       "skills": "HTML5/CSS3, JavaScript, Java, Spring, Jersey, Thyme leaf, Hibernate, JPA, ElasticSearch, Redis, Memcached, MySQL, OracleDB, LDAP, Tomcat, OAuth, Facebook Graph API, Twitter API, AWS",
       "projects": [
         {
@@ -175,7 +175,7 @@
     {
       "school": "FPT University",
       "major": "Software Engineering",
-      "time": "September 2010 to April 2014",
+      "time": "September 2010 to April 2014, Vietnam",
       "achievements": [
         "I had 50% scholarship.",
         "I completed 8 semesters grade Good.",
