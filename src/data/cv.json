@@ -16,7 +16,7 @@
     ]
   },
   "summary": [
-    "Engineering executive with over 12+ years of experience scaling global engineering teams, shaping technology strategy, and driving transformative initiatives in AI-first product development. As Director of Engineering at ShopBack, I lead a team of 60+ engineers and managers across Product Engineering, Platform, Data, and Infrastructure teams, delivering innovative platforms that power SGD 150M+ annual revenue.",
+    "Engineering executive with over 12+ years of experience scaling global engineering teams, shaping technology strategy, and driving transformative initiatives in AI-first product development. As Director of Engineering at ShopBack, I lead a team of 60+ engineers and managers across Product Engineering, Platform, Data, and Infrastructure teams, delivering innovative platforms that power SGD 100M+ annual revenue.",
     "Passionate about accelerating product cycles, boosting organizational efficiency, and cultivating high-performing engineering cultures.",
     "Substantial amount of experience in participating and collaborating with stakeholders and executive teams on technology, business strategy, product roadmap, engineering and corporate culture, hiring, and other aspects of leadership.",
     "Extensive knowledge of JavaScript, NodeJS, Java, and related technologies and massive experience in designing scalability, high availability and high-performance back­end systems using Load Balancing, RPC, Caching, Message Queue System.",
@@ -44,7 +44,7 @@
           "link": "https://www.shopback.com",
           "description": "I was responsible for leading the engineering organization at ShopBack, overseeing Product Engineering, Platform, Data, and Infrastructure teams.",
           "responsibilities": [
-            "Leading a team of 60+ engineers and managers across multiple teams in Singapore and Vietnam, delivering innovative platforms that power SGD 150M+ annual revenue.",
+            "Leading a team of 60+ engineers and managers across multiple teams in Singapore and Vietnam, delivering innovative platforms that power SGD 100M+ annual revenue.",
             "Successfully led multi-tenancy migration, consolidating 200+ services into fewer than 10 optimized Node.js processes, achieving annual AWS cost savings of USD 2M, 99.99% uptime, and increasing infrastructure utilization to 60% BAU.",
             "Reduced idea-to-production delivery timeline by 30% (14 to 10 days) through AI adoption (GitHub Copilot, Cursor, internal LLM tools).",
             "Managed rapid US market expansion on engineering side, launching complex features within a tight 90-day timeline. Standardized new country launch process, reducing time to launch new markets from months to under 2 weeks",
