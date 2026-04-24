@@ -1,0 +1,16 @@
+{
+  "version": "0.26.0",
+  "environments": [
+    "claude",
+    "codex"
+  ],
+  "phases": [],
+  "createdAt": "2026-04-24T07:25:52.090Z",
+  "updatedAt": "2026-04-24T07:25:56.987Z",
+  "skills": [
+    {
+      "registry": "personal/me",
+      "name": "humanizer"
+    }
+  ]
+}

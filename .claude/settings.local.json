@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(npx gatsby:*)",
+      "Read(//tmp/**)"
+    ]
+  }
+}

@@ -46,6 +46,7 @@
           "link": "https://www.shopback.com",
           "description": "I lead ShopBack's engineering organization across Singapore and Vietnam, spanning 13 markets including the US, South Korea, Taiwan, and Germany.",
           "responsibilities": [
+            "Led an organization of 60+ engineers across multiple functions, partnering with executive leadership on strategy, planning, staffing, and execution across 13 markets.",
             "Led a multi-tenancy migration that consolidated 200+ services into fewer than 10 Node.js processes. Result: USD 2M in annual AWS savings, 99.99% uptime, and infrastructure utilization up to 80% during normal operations.",
             "Cut the idea-to-production cycle from weeks to under 10 days by driving a webview solution that removed the app release bottleneck, and an offline data platform that let product teams iterate without waiting on engineering.",
             "Drove the adoption of AI coding tools across the team: GitHub Copilot, then Cursor, now Claude Code and Codex.",
