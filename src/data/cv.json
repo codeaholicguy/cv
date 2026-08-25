@@ -1,59 +1,99 @@
 {
   "meta": {
-    "title": "Nguyen Nhat Hoang",
-    "description": "Nguyen Nhat Hoang Curriculum Vitae",
-    "keywords": "cv, nguyen nhat hoang, codeaholicguy, curriculum vitae, resume, linkedin, github, software engineer, director of engineering, shopback, ai-first product development, engineering leadership, software development, technology strategy, team management, high-performance engineering culture, ai adoption"
+    "title": "Hoang Nguyen",
+    "description": "Hoang Nguyen - VP of Engineering and hands-on technology leader",
+    "keywords": "cv, hoang nguyen, nguyen nhat hoang, codeaholicguy, curriculum vitae, resume, linkedin, github, principal engineer, director of engineering, vp of engineering, cto, shopback, ai-native engineering, agent infrastructure, agentic software factory, engineering leadership, distributed systems, software architecture"
   },
   "info": {
-    "name": "Nguyen Nhat Hoang",
+    "name": "Hoang Nguyen",
+    "headline": "VP of Engineering | AI-Native Engineering, Agent Infrastructure, Distributed Systems",
     "location": "Stockholm, Sweden",
     "email": "hoang@codeaholicguy.com",
     "links": [
-      "https://vn.linkedin.com/in/nguyennhathoang",
+      "https://www.linkedin.com/in/nguyennhathoang",
       "https://github.com/codeaholicguy",
-      "https://codeaholicguy.com",
-      "https://ownthecraftbook.com"
+      "https://codeaholicguy.com"
     ]
   },
   "summary": [
-    "13+ years in engineering, the last several running the whole organization. At ShopBack, APAC's leading shopping, rewards, and payments platform, I lead 60+ engineers across Product Engineering, Platform, Data, and Infrastructure. Our systems generate SGD 100M+ in annual revenue.",
-    "Most of my energy goes into two things: cutting the time between idea and shipped product, and building teams where strong engineers actually want to stay.",
-    "I work closely with CTOs and executive teams on strategy, roadmap, hiring, and culture. My roots are in backend systems: Node.js, Java, distributed architecture. I still write code. No matter the title, if your roots are in engineering, you stay hands-on."
+    "VP of Engineering with 13+ years building distributed systems and leading organizations of 60+ engineers across Product Engineering, Platform, Data, Infrastructure, and QA. Owned the transition to AI-native engineering through shared agent infrastructure and an Agentic Software Factory, which doubled engineering velocity across the organization. Delivered USD 2M in annual cloud savings at 99.99% uptime and led engineering teams in Singapore and Vietnam supporting products across 13 markets."
   ],
-  "awards": [
+  "coreSkills": [
+    "Engineering strategy",
+    "Organizational leadership",
+    "Software architecture",
+    "Distributed systems",
+    "Platform engineering",
+    "AI-native engineering",
+    "Agent infrastructure",
+    "Agentic Software Factory",
+    "AI safety and verification",
+    "Product delivery",
+    "AWS",
+    "Kubernetes",
+    "Node.js",
+    "Java",
+    "Next.js",
+    "Apache Kafka",
+    "PostgreSQL",
+    "Redis",
+    "Elasticsearch",
+    "MySQL",
+    "CI/CD"
+  ],
+  "recognition": [
+    {
+      "year": "2026",
+      "detail": "Creator of AI DevKit, the open-source control plane for AI coding agents (23,000+ downloads, 1,600+ GitHub stars)",
+      "link": "https://github.com/codeaholicguy/ai-devkit"
+    },
     {
       "year": "2025",
-      "detail": "Author of \"AI changes the Tools, you still own the Craft\", a book on staying relevant as an engineer in the AI era (5,000+ downloads worldwide, https://ownthecraftbook.com)"
+      "detail": "Author of \"AI Changes the Tools, You Still Own the Craft\" (5,000+ downloads)",
+      "link": "https://ownthecraftbook.com"
     },
     {
       "year": "2022",
-      "detail": "Github Star (https://stars.github.com/profiles/codeaholicguy/)"
+      "detail": "GitHub Star Alumni",
+      "link": "https://stars.github.com/alumni"
     },
     {
       "year": "2016",
-      "detail": "Best product in Marketing Category of Facebook Hackathon Vietnam 2016"
+      "detail": "Best Product, Marketing Category, Facebook Hackathon Vietnam"
     }
   ],
   "history": [
     {
-      "title": "Director of Engineering",
+      "title": "VP of Engineering",
       "company": "ShopBack",
-      "time": "January 2024 to present, Singapore & Vietnam",
-      "skills": "Engineering leadership, AI-first product development, Team management, Strategic planning, Cross-functional collaboration, High-performance engineering culture",
+      "companyLink": "https://www.shopback.com",
+      "time": "April 2026 to present, Singapore & Vietnam",
       "projects": [
         {
-          "name": "As a Director of Engineering at ShopBack",
-          "link": "https://www.shopback.com",
-          "description": "I lead ShopBack's engineering organization across Singapore and Vietnam, spanning 13 markets including the US, South Korea, Taiwan, and Germany.",
+          "name": "Agentic engineering",
+          "description": "Lead ShopBack's Agentic Software Factory and shared agent infrastructure across Product Engineering, Platform, Data, Infrastructure, and QA.",
           "responsibilities": [
-            "Led an organization of 60+ engineers across multiple functions, partnering with executive leadership on strategy, planning, staffing, and execution across 13 markets.",
-            "Led a multi-tenancy migration that consolidated 200+ services into fewer than 10 Node.js processes. Result: USD 2M in annual AWS savings, 99.99% uptime, and infrastructure utilization up to 80% during normal operations.",
-            "Cut the idea-to-production cycle from weeks to under 10 days by driving a webview solution that removed the app release bottleneck, and an offline data platform that let product teams iterate without waiting on engineering.",
-            "Drove the adoption of AI coding tools across the team: GitHub Copilot, then Cursor, now Claude Code and Codex.",
-            "Shifted the team to an agentic model of work. Drove the infrastructure for teams to deploy domain agents on Slack: QA agent, Web agent, Cashback agent, and others. Each one works like an engineer in its area, taking tasks, answering inquiries, writing code, and opening merge requests for engineers to review. PMs ship simple features and bug fixes through these agents directly.",
-            "Domain agents now handle 80% of non-critical workload and inquiry support. For those tasks, idea-to-production went from months to days and team velocity doubled.",
-            "Handled the US market expansion from the engineering side, shipping complex features in 90 days. Then standardized the country-launch process so new markets go live in under two weeks instead of months.",
-            "Led the migration of the web platform to a Next.js monorepo, cutting operational costs by 90% and compressing feature launch time from weeks to days."
+            "Owned and drove ShopBack's transition to AI-native engineering, building the shared agent infrastructure and Agentic Software Factory that doubled engineering velocity across the organization.",
+            "Designed the ticket-to-draft-MR operating model: agent-ready tickets, context packs, repository documentation, sandboxed execution, generated code and tests, evidence-backed merge requests, and human review.",
+            "Established risk-based verification standards for AI-generated changes, with stricter testing, review, and rollback requirements for money movement, identity, cashback, payments, and other critical systems.",
+            "Lead teams building domain agents for QA, Web, Cashback, Infrastructure, and Data, while staying hands-on with Codex, Claude Code, architecture reviews, production debugging, and system design."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Director of Engineering",
+      "company": "ShopBack",
+      "time": "January 2024 to March 2026, Singapore & Vietnam",
+      "projects": [
+        {
+          "name": "Engineering organization",
+          "description": "Led 60+ engineers in Singapore and Vietnam across Product Engineering, Platform, Data, Infrastructure, and QA, supporting products across 13 markets and partnering with executive leadership on strategy, staffing, investment, and execution.",
+          "responsibilities": [
+            "Architected a multi-tenant runtime that consolidated workloads from 200+ services into fewer than 10 shared Node.js processes, saving USD 2M annually in AWS costs while maintaining 99.99% uptime.",
+            "Reduced idea-to-production time from weeks to under 10 days through webview delivery and offline data platforms that removed app-release and engineering dependency bottlenecks.",
+            "Led engineering for ShopBack's US launch, delivering market-specific capabilities in 90 days, then created a repeatable launch model that reduced subsequent market rollout time to under two weeks.",
+            "Led the web platform migration to a Next.js monorepo, cutting operating costs by 90% and reducing feature launch time from weeks to days."
           ]
         }
       ]
@@ -62,17 +102,15 @@
       "title": "Head of Engineering",
       "company": "ShopBack",
       "time": "September 2020 to January 2024, Vietnam",
-      "skills": "Engineering leadership, Team management, Strategic planning, Cross-functional collaboration",
       "projects": [
         {
-          "name": "As a Head of Engineering",
-          "description": "I built ShopBack's Vietnam engineering team, set the technical vision, and spent a lot of energy making the culture worth staying for.",
+          "name": "Vietnam engineering",
+          "description": "Built and scaled ShopBack's Vietnam engineering organization, setting its technical direction, hiring bar, operating model, and engineering culture.",
           "responsibilities": [
-            "Worked directly with the CTO on governance: setting objectives, managing risk, and making sure the organization's resources were used sensibly.",
-            "Rebuilt the global engineering hiring process. Team grew 39% while raising the hiring bar across all roles. Most of our managers and staff engineers were promoted internally, not hired from outside.",
-            "Built a system that streamlined operational workflows across the company. Merchant onboarding and campaign management got 60% faster.",
-            "Focused hard on engineering culture in the Vietnam office. Engagement scores went from 48% to 80% in a year.",
-            "Shipped 26 global product launches, including a Cashback Platform rolled out across 11 markets with almost no incidents. Cashback tracking time dropped to 30 minutes."
+            "Rebuilt the global engineering hiring process and developed an internal pipeline of managers, staff engineers, and domain owners; engineering headcount grew 39%.",
+            "Raised Vietnam engineering's engagement score from 48% to 80% in one year through clearer expectations, stronger management practices, and consistent follow-through on team feedback.",
+            "Built systems that made merchant onboarding and campaign management 60% faster across the company.",
+            "Delivered 26 global product launches, including the Cashback Platform across 11 markets, and reduced cashback tracking time to 30 minutes."
           ]
         }
       ]
@@ -81,23 +119,14 @@
       "title": "Engineering Manager",
       "company": "ShopBack",
       "time": "April 2018 to September 2020, Vietnam",
-      "skills": "JavaScript, NodeJS, ReactJS, Redux, MySQL, AWS, Kubernetes, Microservices, Chef, Consul",
       "projects": [
         {
-          "name": "Micro-services extraction",
-          "description": "I led a team of 7 senior engineers extracting core services from a monolith into Kubernetes. We worked closely with product managers, designers, and business stakeholders throughout.",
+          "name": "Core platform modernization",
+          "description": "Led senior engineers building and modernizing core product and platform systems.",
           "responsibilities": [
-            "Owned architecture decisions end-to-end, including the unglamorous trade-offs between features, quality, and technical debt.",
-            "Worked with stakeholders to surface technical and organizational debt, introduced agile practices, and made sure team members had room to grow.",
-            "Built a structured interview process and partnered with HR and recruiters on a more diverse candidate pipeline."
-          ]
-        },
-        {
-          "name": "Service Operation Platform",
-          "description": "I led a five-person team building a Service Operation Platform for 7 countries. The goal was to give ShopBack engineers a consistent way to ship features without burning time on setup, so they could focus on the product instead of the plumbing. That platform is still the primary way features are developed for Service Operations at ShopBack.",
-          "responsibilities": [
-            "Designed the architecture: moved from a single codebase to a platform hosting multiple React sub-apps, with shared auth, access control, audit logging, and country-based feature gates.",
-            "Led the team across both frontend and backend and made the final calls on architecture and development."
+            "Led the extraction of core services from a monolith into Kubernetes-based microservices, owning service boundaries, migration strategy, technical debt, and reliability trade-offs.",
+            "Built the Service Operation Platform for seven countries, with multiple React applications, shared authentication, access control, audit logging, and country-level feature gates.",
+            "Worked with product, design, and business leaders to connect architecture decisions to product outcomes, and created a structured engineering interview process."
           ]
         }
       ]
@@ -105,17 +134,15 @@
     {
       "title": "Team Lead",
       "company": "Kobiton",
+      "companyLink": "https://kobiton.com",
       "time": "April 2016 to April 2018, Vietnam",
-      "skills": "JavaScript, NodeJS, ReactJS, PostgreSQL, ElasticSearch, AWS",
       "projects": [
         {
           "name": "Kobiton",
-          "link": "https://kobiton.com",
-          "description": "Kobiton is a mobile testing platform for running automated and manual tests on real physical devices in the cloud.",
+          "description": "Kobiton is a cloud platform for running manual and automated tests on physical mobile devices.",
           "responsibilities": [
-            "Managed a five-person team responsible for the Kobiton portal.",
-            "Owned architecture and development decisions across frontend and backend.",
-            "Worked directly with customers, product, and sales to understand real problems before building."
+            "Managed the five-person portal team and owned architecture decisions across frontend and backend systems.",
+            "Worked directly with customers, product, and sales, building product capabilities with Node.js, React, PostgreSQL, Elasticsearch, and AWS."
           ]
         }
       ]
@@ -124,27 +151,29 @@
       "title": "Senior Software Engineer",
       "company": "NCT Corporation",
       "time": "April 2015 to April 2016, Vietnam",
-      "skills": "Java, ElasticSearch, Apache Kafka, Redis, MySQL",
       "projects": [
         {
-          "name": "nhaccuatui.com & XMusic Station",
+          "name": "nhaccuatui.com",
           "link": "https://nhaccuatui.com",
-          "description": "Backend engineer on one of Vietnam's largest music streaming services (30,000+ concurrent users). Redesigned the architecture around microservices.",
-          "responsibilities": []
+          "description": "Backend engineer for one of Vietnam's largest music streaming platforms, serving more than 30,000 concurrent users at peak.",
+          "responsibilities": [
+            "Redesigned core backend systems around microservices and built high-traffic services with Java, Elasticsearch, Apache Kafka, Redis, and MySQL."
+          ]
         }
       ]
     },
     {
       "title": "Software Engineer",
       "company": "FPT Software",
-      "time": "Jan 2013 to April 2015, Vietnam",
-      "skills": "Java, Spring, ElasticSearch, Redis, MySQL, AWS",
+      "time": "January 2013 to April 2015, Vietnam",
       "projects": [
         {
           "name": "Actvila & Toshiba Cloud TV",
           "link": "https://actvila.jp",
-          "description": "Full-stack developer on Japanese client projects: Actvila (video-on-demand) and Toshiba Cloud TV (Smart TV platform, millions of users across Europe, North America, and Japan).",
-          "responsibilities": []
+          "description": "Full-stack engineer on Japanese client projects, including Actvila and Toshiba Cloud TV, a Smart TV platform used across Europe, North America, and Japan.",
+          "responsibilities": [
+            "Built backend and full-stack features with Java, Spring, Elasticsearch, Redis, MySQL, and AWS in a client-facing delivery environment."
+          ]
         }
       ]
     }

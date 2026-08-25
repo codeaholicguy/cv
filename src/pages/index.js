@@ -19,7 +19,8 @@ const IndexPage = () => {
   return (
     <ContentContext.Consumer>
       {(content) => {
-        const { info, summary, awards, history, educations } = content;
+        const { info, summary, coreSkills, recognition, history, educations } =
+          content;
 
         return (
           <Layout>
@@ -39,6 +40,9 @@ const IndexPage = () => {
                   )}
                 </div>
                 <p>
+                  <strong>{info.headline}</strong>
+                </p>
+                <p>
                   <span>{info.location}</span>
                   <span> · </span>
                   {info.mobile && (
@@ -49,7 +53,7 @@ const IndexPage = () => {
                   )}
                   <span>
                     <a
-                      href={info.email}
+                      href={`mailto:${info.email}`}
                       rel="noopener noreferrer"
                       target="_blank"
                     >
@@ -77,53 +81,46 @@ const IndexPage = () => {
                 </p>
               </div>
               <div>
-                <h2 style={styles.header}>Career summary</h2>
-                <ul>
+                <h2 style={styles.header}>Professional Summary</h2>
+                <div>
                   {summary.map((item, index) => {
-                    return (
-                      <li key={`summary-${index}`}>
-                        {<div dangerouslySetInnerHTML={{ __html: item }}></div>}
-                      </li>
-                    );
+                    return <p key={`summary-${index}`}>{item}</p>;
                   })}
-                </ul>
+                </div>
               </div>
               <div>
-                <h2 style={styles.header}>Awards</h2>
-                <ul>
-                  {awards.map((item, index) => {
-                    return (
-                      <li key={`award-${index}`}>
-                        <span>{item.year}</span>
-                        <span> – </span>
-                        <span>{item.detail}</span>
-                      </li>
-                    );
-                  })}
-                </ul>
+                <h2 style={styles.header}>Core Skills</h2>
+                <p>{coreSkills.join(" · ")}</p>
               </div>
               <div>
-                <h2 style={styles.header}>Work history</h2>
+                <h2 style={styles.header}>Professional Experience</h2>
                 <div>
                   {history.map((item, index) => {
                     return (
-                      <div key={`history-${index}`}>
+                      <div
+                        className={index === 3 ? "cv-role cv-page-two" : "cv-role"}
+                        key={`history-${index}`}
+                      >
                         <h3>
                           <span>{item.title}</span>
                           <span>, </span>
-                          <span>{item.company}</span>
+                          <span>
+                            {item.companyLink ? (
+                              <a
+                                href={item.companyLink}
+                                rel="noopener noreferrer"
+                                target="_blank"
+                              >
+                                {item.company}
+                              </a>
+                            ) : (
+                              item.company
+                            )}
+                          </span>
                         </h3>
                         <p>
                           <span>
                             <i>{item.time}</i>
-                          </span>
-                        </p>
-                        <p>
-                          <span>
-                            <strong>Skill: </strong>
-                          </span>
-                          <span>
-                            <i>{item.skills}</i>
                           </span>
                         </p>
                         <div>
@@ -171,6 +168,32 @@ const IndexPage = () => {
                     );
                   })}
                 </div>
+              </div>
+              <div>
+                <h2 style={styles.header}>
+                  Selected Recognition and Public Work
+                </h2>
+                <ul>
+                  {recognition.map((item, index) => {
+                    return (
+                      <li key={`recognition-${index}`}>
+                        <span>{item.year}</span>
+                        <span> – </span>
+                        {item.link ? (
+                          <a
+                            href={item.link}
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            {item.detail}
+                          </a>
+                        ) : (
+                          <span>{item.detail}</span>
+                        )}
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
               {educations && educations.length > 0 && (
                 <div>
